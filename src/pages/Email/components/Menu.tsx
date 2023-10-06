@@ -12,9 +12,8 @@ function Menu({
   id: string;
   menus: Array<{ label: string } & { [k: string]: any }>;
 }) {
-  const [buttonElement, setButtonElement] = React.useState<HTMLButtonElement | null>(
-    null,
-  );
+  const [buttonElement, setButtonElement] =
+    React.useState<HTMLButtonElement | null>(null);
   const [isOpen, setOpen] = React.useState(false);
   const buttonRef = React.useRef<HTMLButtonElement>(null);
   const menuActions = React.useRef<MenuActions>(null);
@@ -34,7 +33,9 @@ function Menu({
     setOpen((open) => !open);
   };
 
-  const handleButtonKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>) => {
+  const handleButtonKeyDown = (
+    event: React.KeyboardEvent<HTMLButtonElement>
+  ) => {
     if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
       event.preventDefault();
       setOpen(true);

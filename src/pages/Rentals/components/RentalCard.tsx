@@ -37,7 +37,10 @@ export default function RentalCard({
         },
         boxShadow: 'none',
         borderRadius: 'sm',
-        '&:hover': { boxShadow: 'md', borderColor: 'neutral.outlinedHoverBorder' },
+        '&:hover': {
+          boxShadow: 'md',
+          borderColor: 'neutral.outlinedHoverBorder',
+        },
       }}
     >
       <Stack
