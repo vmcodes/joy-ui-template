@@ -64,11 +64,11 @@ export default function Login() {
             alert(JSON.stringify(data, null, 2));
           }}
         >
-          <FormControl required>
+          <FormControl>
             <FormLabel>Email</FormLabel>
             <Input type="email" name="email" />
           </FormControl>
-          <FormControl required>
+          <FormControl>
             <FormLabel>Password</FormLabel>
             <Input
               type="password"

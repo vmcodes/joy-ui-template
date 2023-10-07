@@ -68,11 +68,11 @@ export default function Register() {
             }
           }}
         >
-          <FormControl required>
+          <FormControl>
             <FormLabel>Email</FormLabel>
             <Input type="email" name="email" />
           </FormControl>
-          <FormControl required>
+          <FormControl>
             <FormLabel>Password</FormLabel>
             <Input
               type="password"
@@ -80,7 +80,7 @@ export default function Register() {
               slotProps={{ input: { minLength: 8 } }}
             />
           </FormControl>
-          <FormControl required>
+          <FormControl>
             <FormLabel>Confirm Password</FormLabel>
             <Input
               type="password"

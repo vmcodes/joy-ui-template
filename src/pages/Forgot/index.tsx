@@ -61,7 +61,7 @@ export default function Forgot() {
             alert(JSON.stringify(data, null, 2));
           }}
         >
-          <FormControl required>
+          <FormControl>
             <FormLabel>Email</FormLabel>
             <Input type="email" name="email" />
           </FormControl>
