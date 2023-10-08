@@ -21,16 +21,15 @@ export default function FirstSidebar() {
       sx={{
         position: {
           xs: 'fixed',
-          md: 'sticky',
         },
         transform: {
           xs: 'translateX(calc(100% * (var(--SideNavigation-slideIn, 0) - 1)))',
-          md: 'none',
+          lg: 'none',
         },
         transition: 'transform 0.4s',
         zIndex: 10000,
         height: '100dvh',
-        width: 'var(--FirstSidebar-width)',
+        maxWidth: 'var(--FirstSidebar-width)',
         top: 0,
         p: 2,
         flexShrink: 0,

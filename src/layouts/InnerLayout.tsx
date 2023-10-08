@@ -32,6 +32,9 @@ export default function InnerLayout({ children }: Children) {
               xs: 2,
               md: 6,
             },
+            ml: {
+              md: 24,
+            },
             pt: {
               xs: 'calc(12px + var(--Header-height))',
               sm: 'calc(12px + var(--Header-height))',
@@ -78,24 +81,14 @@ export default function InnerLayout({ children }: Children) {
               </Typography>
             </Breadcrumbs>
             <ColorSchemeToggle
-              sx={{ ml: 'auto', display: { xs: 'none', md: 'inline-flex' } }}
+              sx={{ ml: 'auto', display: { xs: 'none', lg: 'inline-flex' } }}
             />
           </Box>
-          <Box
-            sx={{
-              display: 'flex',
-              my: 1,
-              gap: 1,
-              flexDirection: { xs: 'column', sm: 'row' },
-              alignItems: { xs: 'start', sm: 'center' },
-              flexWrap: 'wrap',
-              justifyContent: 'space-between',
-            }}
-          >
-            <Typography level="h2" sx={{ textTransform: 'capitalize' }}>
-              {pathname ? pathname : 'Dashboard'}
-            </Typography>
-          </Box>
+
+          <Typography level="h2" sx={{ textTransform: 'capitalize', pl: 1 }}>
+            {pathname ? pathname : 'Dashboard'}
+          </Typography>
+
           {children}
         </Box>
       </Box>

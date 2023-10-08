@@ -46,7 +46,6 @@ export default function SecondSidebar() {
         sx={{
           position: {
             xs: 'fixed',
-            lg: 'sticky',
           },
           transform: {
             xs: 'translateX(calc(100% * (var(--SideNavigation-slideIn, 0) - 1) + var(--SideNavigation-slideIn, 0) * var(--FirstSidebar-width, 0px)))',
@@ -57,6 +56,7 @@ export default function SecondSidebar() {
           height: '100dvh',
           top: 0,
           p: 2,
+          ml: { lg: 8 },
           flexShrink: 0,
           display: 'flex',
           flexDirection: 'column',

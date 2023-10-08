@@ -16,7 +16,6 @@ export default function Settings() {
       <Box
         sx={{
           flex: 1,
-          maxWidth: 1200,
           width: '100%',
           mx: 'auto',
         }}
