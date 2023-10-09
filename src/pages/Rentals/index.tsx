@@ -35,7 +35,6 @@ export default function RentalDashboard() {
           container
           sx={{
             width: '100%',
-
             margin: 0,
           }}
         >
@@ -43,7 +42,7 @@ export default function RentalDashboard() {
             xs={12}
             lg={8}
             sx={{
-              overflowY: 'scroll',
+              overflowY: 'auto',
               height: '100%',
               px: { xs: 2, md: 4 },
               pt: { xs: 8, md: 4 },
