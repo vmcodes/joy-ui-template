@@ -57,9 +57,9 @@ export default extendTheme({
         root: ({ ownerState, theme }) => ({
           ...(ownerState.variant === 'outlined' && {
             [`&:not(.${inputClasses.focused}):hover::before`]: {
-              boxShadow: `inset 0 0 0 2px ${theme.vars.palette?.[
-                ownerState.color!
-              ]?.outlinedBorder}`,
+              boxShadow: `inset 0 0 0 2px ${
+                theme.vars.palette?.[ownerState.color!]?.outlinedBorder
+              }`,
             },
           }),
         }),
