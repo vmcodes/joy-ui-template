@@ -1,28 +1,28 @@
 {
   "dependencies": {
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
-    "@mui/base": "^5.0.0-beta.40",
-    "@mui/icons-material": "^5.15.17",
-    "@mui/joy": "^5.0.0-beta.36",
-    "@mui/material": "^5.15.17",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/base": "^5.0.0-beta.58",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/joy": "^5.0.0-beta.48",
+    "@mui/material": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.26.2"
   },
   "devDependencies": {
-    "@types/react": "^18.3.2",
+    "@types/react": "^18.3.8",
     "@types/react-dom": "^18.3.0",
     "@types/react-router-dom": "^5.3.3",
-    "@typescript-eslint/eslint-plugin": "^7.8.0",
-    "@typescript-eslint/parser": "^7.8.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "eslint": "^9.2.0",
+    "@typescript-eslint/eslint-plugin": "^8.6.0",
+    "@typescript-eslint/parser": "^8.6.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.11.0",
     "eslint-plugin-react-hooks": "^4.6.2",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "prettier": "^3.2.5",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.11"
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "vite": "^5.4.7"
   },
   "main": "main.tsx",
   "scripts": {
@@ -47,5 +47,6 @@
   },
   "name": "joy-ui-template",
   "version": "0.0.0",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module"
 }
